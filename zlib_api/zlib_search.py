@@ -1,9 +1,5 @@
-from bs4 import BeautifulSoup
-from telegram import Message
 from typing import Union
-import requests
-import fake_headers
-from zlib_scrap import Scrap
+from zlib_api import Scrap
 
 class ZLib:
     def __init__(self) -> None:
